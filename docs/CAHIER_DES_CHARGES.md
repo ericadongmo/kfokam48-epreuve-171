@@ -1,7 +1,7 @@
 # Cahier des charges — PresenceKF
 
 **Auteur :** DONGMO Erica · KF48-171
-**Version :** 1 · **Date :** 25/09/2026
+**Version :** 1 · **Date :** <25/09/2026>
 **Frontend choisi :** Next.js, parce que c'est un framework React qui apporte nativement le routage par fichiers (les trois écrans — formateur, étudiant, relecteur — deviennent trois dossiers dans `app/`), le rendu serveur et les Server Components pour les écrans qui lisent des données (le tableau formateur), et une structure de projet déjà cadrée qui évite de perdre du temps à choisir une architecture en pleine épreuve. Le build (`next build`) est vérifiable en une commande, ce qui répond directement à la contrainte F1.
 
 ---
@@ -215,4 +215,4 @@ L'objectif n'est pas de remplacer un ENT complet, mais de couvrir le strict beso
 
 | Version | Quand | Ce qui a changé et pourquoi |
 |---|---|---|
-| 1 | 25/09/2026 | Version initiale après analyse de `CLIENT.md` et `api/contrat.yaml`. Contradiction **Q10/Q15** tranchée en faveur de **Q10** ; divergence **Annexe B / YAML** tranchée en faveur du **YAML** ; trou **Q3/Q12** comblé (dépôt autorisé sans présence) ; trois autres zones d'ombre documentées (clôture, absence de relecteur disponible, définition de « relecture commencée ») ; moyenne nullable alignée sur le contrat. 
+| 1 | <25/09/2026 — date du jour> | Version initiale après analyse de `CLIENT.md` et `api/contrat.yaml`. Contradiction **Q10/Q15** tranchée en faveur de **Q10** ; divergence **Annexe B / YAML** tranchée en faveur du **YAML** ; trou **Q3/Q12** comblé (dépôt autorisé sans présence) ; trois autres zones d'ombre documentées (clôture, absence de relecteur disponible, définition de « relecture commencée ») ; moyenne nullable alignée sur le contrat. 
